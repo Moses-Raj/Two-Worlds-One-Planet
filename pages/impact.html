@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Impact Simulator | Two Worlds, One Planet</title>
+
+<link rel="stylesheet" href="../style.css">
+
+</head>
+
+
+<body>
+
+
+<nav>
+    <h2>Two Worlds, One Planet</h2>
+
+    <ul>
+
+        <li>
+    <a href="../index.html">Home</a>
+</li>
+
+        <li class="dropdown">
+
+            <a href="#">Explore ▼</a>
+
+            <ul class="dropdown-menu">
+
+                <li><a href="sdg14.html">SDG 14</a></li>
+                <li><a href="sdg15.html">SDG 15</a></li>
+                <li><a href="malaysia.html">Malaysia</a></li>
+                <li><a href="endangered.html">Species</a></li>
+
+            </ul>
+
+        </li>
+
+        <li class="dropdown">
+
+            <a href="#">Interact ▼</a>
+
+            <ul class="dropdown-menu">
+
+                <li><a href="quiz.html">Quiz</a></li>
+                <li><a href="take-action.html">Take Action</a></li>
+                <li><a href="impact.html">Impact</a></li>
+
+            </ul>
+
+        </li>
+
+        <li>
+            <a href="about.html">About</a>
+        </li>
+
+        <li>
+            <a href="references.html">References</a>
+        </li>
+
+    </ul>
+
+</nav>
+
+
+
+<section class="hero impact-hero">
+
+<div class="particles">
+
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+
+</div>
+
+
+<div class="hero-content">
+
+<h1>Planet Impact Simulator 🌍</h1>
+
+<p>
+Discover how your daily choices can help the environment.
+</p>
+
+</div>
+
+</section>
+
+<section class="climate-section">
+
+    <h2>🌡️ SDG 13: Climate Action</h2>
+
+    <p>
+        Climate change affects every ecosystem on Earth.
+        Rising temperatures, extreme weather, and carbon emissions
+        threaten oceans, forests, and wildlife.
+    </p>
+
+
+    <div class="climate-cards">
+
+
+        <div class="climate-card">
+
+            <div class="climate-icon">
+                🔥
+            </div>
+
+            <h3>Climate Change</h3>
+
+            <p>
+                Increasing global temperatures are changing habitats
+                and putting species at risk.
+            </p>
+
+        </div>
+
+
+
+        <div class="climate-card">
+
+            <div class="climate-icon">
+                🌊
+            </div>
+
+            <h3>Ocean Impact</h3>
+
+            <p>
+                Warmer oceans contribute to coral bleaching,
+                rising sea levels, and marine ecosystem changes.
+            </p>
+
+        </div>
+
+
+
+        <div class="climate-card">
+
+            <div class="climate-icon">
+                🌳
+            </div>
+
+            <h3>Land Impact</h3>
+
+            <p>
+                Climate changes threaten forests,
+                biodiversity, and natural habitats.
+            </p>
+
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+<section class="impact-container">
+
+
+<div class="impact-card">
+
+
+<h2>🌊 Plastic Reduction Calculator</h2>
+
+
+<p>
+How many plastic bottles do you avoid each week?
+</p>
+
+
+<input 
+id="bottles" 
+type="number" 
+placeholder="Enter number of bottles"
+>
+
+
+<br><br>
+
+
+<button onclick="calculateImpactAmount()">
+
+Calculate My Impact
+
+</button>
+
+
+
+<div id="result">
+
+
+<h2>
+Your yearly impact will appear here.
+</h2>
+
+
+</div>
+
+
+
+<div id="impact-level">
+
+</div>
+
+
+
+</div>
+
+
+</section>
+
+
+<section class="tree-simulator">
+
+    <h2>🌱 Eco Impact Simulator</h2>
+
+    <p>
+        See how small actions can create a bigger environmental impact.
+    </p>
+
+
+    <div class="tree-display" id="treeDisplay">
+        🌱
+    </div>
+
+
+    <div class="tree-controls">
+
+        <button onclick="removeTree()">−</button>
+
+        <span id="treeCount">1</span>
+
+        <button onclick="addTree()">+</button>
+
+    </div>
+
+
+    <div class="impact-results">
+
+        <div>
+            <h3 id="co2">21 kg</h3>
+            <p>CO₂ Absorbed</p>
+        </div>
+
+
+        <div>
+            <h3 id="climate">0%</h3>
+            <p>Global Warming Reduced</p>
+        </div>
+
+
+        <div>
+            <h3 id="air">1</h3>
+            <p>Cleaner Air Impact</p>
+        </div>
+
+    </div>
+
+
+    <div class="earth-health">
+
+        <h3>🌍 Planet Health</h3>
+
+        <div class="health-bar">
+
+            <div class="health-fill" id="healthFill"></div>
+
+        </div>
+
+        <p id="healthText">
+            0% Planet Restored
+        </p>
+
+<p id="impactMessage">
+    🌱 Start planting to restore nature.
+</p>
+
+    </div>
+
+
+</section>
+
+<section class="sdg-connection">
+
+    <h2>🌍 How SDGs Are Connected</h2>
+
+    <p class="connection-text">
+        Oceans and forests are not separate worlds.
+        They work together to keep our planet balanced.
+    </p>
+
+
+    <div class="connection-container">
+
+
+        <div class="sdg-box ocean-box">
+
+            <div class="sdg-icon">
+                🌊
+            </div>
+
+            <h3>SDG 14</h3>
+
+            <h4>Life Below Water</h4>
+
+            <p>
+                Protecting oceans helps preserve marine life,
+                food sources, and Earth's climate balance.
+            </p>
+
+        </div>
+
+
+
+        <div class="connection-line">
+
+            <span>
+                🌍
+            </span>
+
+        </div>
+
+
+
+        <div class="sdg-box land-box">
+
+            <div class="sdg-icon">
+                🌳
+            </div>
+
+            <h3>SDG 15</h3>
+
+            <h4>Life on Land</h4>
+
+            <p>
+                Healthy forests support biodiversity,
+                clean air, and sustainable ecosystems.
+            </p>
+
+        </div>
+
+
+    </div>
+
+
+</section>
+
+<footer>
+
+    <p>© 2026 Two Worlds, One Planet</p>
+
+    <p>Protecting Life Below Water 🌊 & Life On Land 🌳</p>
+
+    <br>
+
+    <p>
+        Developed by Moses Raj Annathurai,
+        Arvin Suresh & Dharssendhera Arul Prakash
+    </p>
+
+</footer>
+
+<script src="../script.js"></script>
+
+
+</body>
+
+</html>
