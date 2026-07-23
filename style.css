@@ -1057,20 +1057,21 @@ footer p{
 
 /* LOCATION POSITIONS */
 
+/* LOCATION POSITIONS */
 
 .redang{
-    left:26.7%;
-    top:39.2%;
+    left:25.8%;
+    top:44.5%;
 }
 
 .negara{
-    left:25%;
-    top:55.6%;
+    left:24.2%;
+    top:62.8%;
 }
 
 .kinabalu{
-    left:84.4%;
-    top:33.3%;
+    left:82.7%;
+    top:37.6%;
 }
 
 
@@ -1123,10 +1124,9 @@ footer p{
     opacity:1;
 
     visibility:visible;
-
+position:absolute;
     transform:
-    translateX(-50%)
-    translateY(0);
+    translate(-50%, -50%)
 
 }
 
