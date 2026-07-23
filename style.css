@@ -3251,3 +3251,28 @@ transform:translateY(-15px);
     }
 
 }
+
+@media(max-width:768px){
+
+    nav{
+        position:relative;
+        padding:10px 15px;
+    }
+
+    nav h2{
+        font-size:20px;
+        margin-bottom:8px;
+    }
+
+    nav ul{
+        flex-direction:row;
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:10px;
+    }
+
+    nav a{
+        font-size:14px;
+    }
+
+}
