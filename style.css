@@ -1059,33 +1059,19 @@ footer p{
 
 
 .redang{
-
-    left:240px;
-
-    top:195px;
-
+    left:26.7%;
+    top:39.2%;
 }
-
-
 
 .negara{
-
-    left:225px;
-
-    top:275px;
-
+    left:25%;
+    top:55.6%;
 }
-
-
 
 .kinabalu{
-
-    left:760px;
-
-    top:165px;
-
+    left:84.4%;
+    top:33.3%;
 }
-
 
 
 /* POPUP */
@@ -3305,26 +3291,6 @@ transform:translateY(-15px);
         position:relative;
         top:auto;
         width:100%;
-    }
-
-}
-@media(max-width:768px){
-
-    .redang{
-        left:24%;
-        top:42%;
-    }
-
-
-    .negara{
-        left:24%;
-        top:60%;
-    }
-
-
-    .kinabalu{
-        left:84%;
-        top:38%;
     }
 
 }
