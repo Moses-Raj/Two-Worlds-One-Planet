@@ -3272,7 +3272,7 @@ transform:translateY(-15px);
         font-size:45px;
     }
 
-}
+
 
 @media(max-width:768px){
 
@@ -3305,6 +3305,40 @@ transform:translateY(-15px);
         position:relative;
         top:auto;
         width:100%;
+    }
+
+}
+
+@media(max-width:768px){
+
+    .map-container{
+        width:95%;
+        overflow:hidden;
+    }
+
+
+    .redang{
+        left:27%;
+        top:35%;
+    }
+
+
+    .negara{
+        left:25%;
+        top:55%;
+    }
+
+
+    .kinabalu{
+        left:82%;
+        top:30%;
+    }
+
+
+    .marker-popup{
+        white-space:normal;
+        width:180px;
+        font-size:12px;
     }
 
 }
