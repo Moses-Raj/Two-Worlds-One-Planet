@@ -3308,37 +3308,23 @@ transform:translateY(-15px);
     }
 
 }
-
 @media(max-width:768px){
 
-    .map-container{
-        width:95%;
-        overflow:hidden;
-    }
-
-
     .redang{
-        left:27%;
-        top:35%;
+        left:28%;
+        top:40%;
     }
 
 
     .negara{
-        left:25%;
-        top:55%;
+        left:24%;
+        top:60%;
     }
 
 
     .kinabalu{
-        left:82%;
-        top:30%;
-    }
-
-
-    .marker-popup{
-        white-space:normal;
-        width:180px;
-        font-size:12px;
+        left:84%;
+        top:38%;
     }
 
 }
