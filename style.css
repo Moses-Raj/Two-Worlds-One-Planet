@@ -3086,3 +3086,168 @@ transform:translateY(-15px);
 
 
 }
+
+/* =========================
+   FINAL MOBILE FIXES
+========================= */
+
+@media (max-width:768px){
+
+    /* NAVIGATION */
+    nav{
+        padding:15px;
+    }
+
+    nav h2{
+        font-size:22px;
+    }
+
+    nav ul{
+        width:100%;
+        gap:12px;
+    }
+
+    nav a{
+        font-size:16px;
+    }
+
+
+    /* HERO */
+    .hero{
+        min-height:100vh;
+        height:auto;
+        padding:120px 20px 60px;
+    }
+
+    .hero h1{
+        font-size:32px;
+    }
+
+    .hero p{
+        font-size:16px;
+        max-width:100%;
+    }
+
+
+    /* BUTTONS */
+    .hero-buttons{
+        flex-direction:column;
+        gap:15px;
+    }
+
+    .hero-buttons button{
+        width:100%;
+        max-width:300px;
+    }
+
+
+    /* HEADINGS */
+    .sdg-section h2,
+    .stats-section h2,
+    .video-section h2,
+    .sdg-connection h2{
+        font-size:30px;
+    }
+
+
+    /* TEXT */
+    .sdg-section p,
+    .connection-text{
+        width:100%;
+        font-size:16px;
+    }
+
+
+    /* CARDS */
+    .card,
+    .species-card,
+    .stat-card,
+    .action-card,
+    .support-card,
+    .reference-card,
+    .sdg-box{
+        width:90%;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+
+    /* IMAGES */
+    .page-image,
+    .location-image{
+        width:95%;
+        height:auto;
+    }
+
+
+    .card img{
+        height:220px;
+    }
+
+
+    /* STATS */
+    .stats-container{
+        flex-direction:column;
+        align-items:center;
+    }
+
+
+    .stat-card h2{
+        font-size:45px;
+    }
+
+
+    /* VIDEO */
+    .video-section video{
+        width:100%;
+        height:auto;
+    }
+
+
+    /* MALAYSIA MAP */
+    .map-container{
+        width:100%;
+    }
+
+    .map-marker{
+        width:10px;
+        height:10px;
+    }
+
+
+    /* WORLD TRANSITION */
+    .transition-content h2{
+        font-size:34px;
+    }
+
+    .transition-content p{
+        font-size:16px;
+    }
+
+    .world-icons{
+        gap:15px;
+    }
+
+    .world-icons span{
+        font-size:55px;
+    }
+
+    .connection-line{
+        width:60px;
+    }
+
+
+    /* IMPACT */
+    .impact-container,
+    .quiz-container,
+    .action-container{
+        padding:20px;
+    }
+
+
+    /* TREE */
+    .tree-display{
+        font-size:45px;
+    }
+
+}
