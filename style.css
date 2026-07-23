@@ -3276,3 +3276,13 @@ transform:translateY(-15px);
     }
 
 }
+
+@media(max-width:768px){
+
+    nav{
+        position:relative;
+        top:auto;
+        width:100%;
+    }
+
+}
