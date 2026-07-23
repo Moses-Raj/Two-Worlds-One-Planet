@@ -3091,25 +3091,47 @@ transform:translateY(-15px);
    FINAL MOBILE FIXES
 ========================= */
 
-@media (max-width:768px){
+@media(max-width:768px){
 
-    /* NAVIGATION */
     nav{
-        padding:15px;
+        display:flex;
+        flex-direction:column;
+        padding:15px 10px;
+        position:relative;
     }
 
     nav h2{
-        font-size:22px;
+        margin-bottom:15px;
+        text-align:center;
     }
 
     nav ul{
-        width:100%;
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+        align-items:center;
+        flex-wrap:wrap;
         gap:12px;
+        width:100%;
+    }
+
+    nav li{
+        display:block;
     }
 
     nav a{
-        font-size:16px;
+        font-size:14px;
     }
+
+    .dropdown-menu{
+        position:absolute;
+        left:50%;
+        transform:translateX(-50%);
+        width:200px;
+    }
+
+}
+
 
 
     /* HERO */
